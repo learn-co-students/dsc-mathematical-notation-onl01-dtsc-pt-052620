@@ -53,7 +53,7 @@ A mathematician would express the same algorithm using the following **_Sigma No
 
 $$\LARGE \sum_{n=1}^{5} x $$
 
-Pretty nifty, huh? The equation above says that we should start counting at 0, because we see `n=1` under the summation. We should stop once we've hit 5 (inclusive). Our sum totals the sum of each value of X for each step between `n=1` and up to (and including) `n=5`. 
+Pretty nifty, huh? The equation above says that we should start counting at 1, because we see `n=1` under the summation. We should stop once we've hit 5 (inclusive). Our sum totals the sum of each value of X for each step between `n=1` and up to (and including) `n=5`. 
 
 If we were to write it out explicitly, it would look like:
 
@@ -115,7 +115,7 @@ In Pi Notation, this would translate to:
 
 $$ \LARGE \prod_{i=1}^{5} i + 2$$
 
-Which, when when written out completely, would be:
+Which, when written out completely, would be:
 
 $$ \LARGE \prod_{i=1}^{5} i + 2 = (1 + 2) * (2 + 2) * (3 + 2) * ( 4 + 2) * ( 5 + 2)$$
 
