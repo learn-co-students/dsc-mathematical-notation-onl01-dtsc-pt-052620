@@ -15,11 +15,16 @@ You will be able to:
 ## Understanding Mathematical Notation
 
 When learning Data Science, running into dense, arcane-looking mathematical equations is an inevitability. For instance, here's an equation for a machine learning algorithm called a _Support Vector Machine_ that you'll learn about later in the course:
-<br>
-<br>
-<center>
-<img src='images/kernel-trick-equation.jpg'>
-    
+
+
+$ \LARGE \text{minimize:} $
+
+$$ \LARGE W(\alpha) = - \sum_{i=1}^{\ell}\alpha_i + \frac{1}{2}\sum_{i=1}^{\ell}\sum_{j=1}^{\ell}y_iy_j\alpha_i\alpha_j\textbf{x}_i\textbf{x}_j$$
+
+
+$ \LARGE \text{subject to:} $ $$ \LARGE \sum_{\substack{i=1 \\ 0\leq\alpha_i\leq C}}^{\ell}y_i \alpha_i = 0 $$
+
+
 <strong><em>Don't stare at this too long, or else you'll get a nosebleed...</em></strong></center>
 
 At first glance, equations like this often seem impenetrable and impossible to understand. If seeing math like this makes you nervous, don't worry--you're not alone! This is a particularly dense example of mathematical notation, but at the end of the day, it's just a recipe for an algorithm. Whereas we are used to expressing our algorithms in code, mathematicians prefer to use **_Mathematical Notation_**, to express big ideas in small, dense packages full of Greek letters, subscripts, and superscripts. Although these look intimidating in the beginning, they'll seem a lot more manageable once we've learned some basic mathematical notation. 
@@ -128,3 +133,8 @@ In the repo containing this notebook, you'll find a PDF document called `full-no
 ## Summary
 
 In this lesson, we learned about how to read basic Sigma and Pi Notation.
+
+
+```python
+
+```
